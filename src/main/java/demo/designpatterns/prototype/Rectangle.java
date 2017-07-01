@@ -13,6 +13,8 @@ public class Rectangle implements Prototype, Command {
 		} catch (CloneNotSupportedException ex) {
 			System.err.println("Clone is not supported");
 		}
+
+		return clone;
 	}
 
 	@Override
